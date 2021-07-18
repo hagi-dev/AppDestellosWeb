@@ -1,0 +1,26 @@
+{
+    "name": "hagi/destellos",
+    "description": "app web destellos",
+    "license": "PHP",
+    "authors": [
+        {
+            "name": "hagi torres",
+            "email": "hagiraitorresmacedo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"resource/src"
+        },
+        "classmap": [
+            "./resource/object",
+            "./resource/querys"
+        ],
+        "files":[
+            "resource/src/helpers.php"
+        ]
+
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

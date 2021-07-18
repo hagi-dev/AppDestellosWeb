@@ -1,0 +1,212 @@
+.containerPedido{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    /* background: rgb(255,244,127);
+    background: radial-gradient(circle, rgba(255,244,127,1) 15%, rgba(177,139,130,1) 60%); */
+    border-radius: 27px;
+}
+.procesoPedido{
+    background:transparent;
+    width: 100%;
+    height:87% ;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.procesoPedido__ingresoDatos{
+    background:transparent;
+    width: 100%;
+    height:77% ;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.procesoPedido__ingresoDatos-formulario #form__datosDireccion{
+    display: none;
+    /* display: grid; */
+    grid-template-rows: 55px 55px 55px 55px 55px 90px;
+    width: 400px;
+    height: 450px;
+    background-color:  #392B28;
+    border-radius: 80px;
+    padding-left: 45px;
+    padding-top: 40px;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+}
+#form__datosDireccion.active{
+    display: grid; 
+}
+.procesoPedido__ingresoDatos-formulario #form__datosPersona{
+    display: none;
+    display: grid;
+    grid-template-rows: 50px 65px 65px 65px 80px;
+    width: 400px;
+    height: 420px;
+    background-color:  #392B28;
+    border-radius: 80px;
+    padding-left: 60px;
+    padding-top: 40px;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+
+}
+#form__datosPersona.active{
+    display: none;
+}
+
+
+#form__datosPersona-titulo{
+    font-size: 1.5em;
+    color: white;
+}
+#form__datosPersona-titulo h3{
+    width: 280px;
+    text-align: center;
+}
+
+#form__datosPersona label{
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    color: white;
+}
+#form__datosPersona input{
+    
+    margin-bottom: 5px;
+    width: 280px;
+    height: 25px;
+    border-radius: 23px;
+    border:0px;
+    height: 25px;
+    padding-left: 20px;
+}
+#form__datosPersona button{
+    width:130px ; 
+    height: 35px;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 5px;
+    background-color: #DA0D12 ;
+    border:0px;
+    color:white;
+    font-size: 1.2em;
+    cursor:pointer;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+
+}
+#form__datosPersona-save{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+#form__datosDireccion-titulo{
+    font-size: 1.5em;
+    color: white;
+}
+#form__datosDireccion-titulo h3{
+    width: 300px;
+    text-align: center;
+}
+
+#form__datosDireccion label{
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    color: white;
+}
+#form__datosDireccion select{
+    
+    margin-bottom: 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 23px;
+    border:0px;
+    padding-left: 20px;
+    color: black;
+}
+#form__datosDireccion input{
+    
+    margin-bottom: 5px;
+    width: 300px;
+    border-radius: 23px;
+    border:0px;
+    height: 25px;
+    color: black;
+    padding-left: 20px;
+}
+#form__datosDireccion button{
+    width:130px ; 
+    height: 35px;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 5px;
+    background-color: #DA0D12 ;
+    border:0px;
+    color:white;
+    font-size: 1.2em;
+    cursor:pointer;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+
+}
+#form__datosDireccion-save{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+.procesoPedido__ingresoDatos-formulario {
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+.procesoPedido__ingresoDatos-imgExplicativo {
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding-left: 39px;
+    padding-bottom: 31px;
+    margin-top: 0;
+}
+.procesoPedido__ingresoDatos-imgExplicativo img {
+    width: 460px;
+    height: auto;
+}
+
+
+.procesoPedido__barraProgreso{
+    width: 100%;
+    height:8% ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 15px;
+}
+.procesoPedido__barraProgreso svg{
+    width: 80px;
+    height:auto;
+
+}
+.procesoPedido__siguiente{
+    width: 100%;
+    height:15% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 57px;
+   
+}
+.procesoPedido__siguiente button{
+    width:130px ; 
+    height: 35px;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 5px;
+    background-color: #DA0D12 ;
+    border:0px;
+    color:white;
+    font-size: 1.2em;
+    margin-left: 20px;
+    cursor:pointer;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+}

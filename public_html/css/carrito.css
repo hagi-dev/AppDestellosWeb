@@ -1,0 +1,144 @@
+.containerCarrito{
+    background-color:transparent ;
+    width: 100%;
+    height:100%;
+  
+  }
+.pedido{
+  width: 100%;
+  height: 500px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  scrollbar-color:  #DA0D12  transparent;
+  scrollbar-width: thin;
+  justify-content: center;
+}
+.pedido .pedido__card{
+  width: 800px;
+  height: 220px;
+  border-radius: 22px;
+  background-color: #392b28;
+  margin-bottom:15px ;
+  display: grid;
+  grid-template-columns: 320px 320px 160px;
+  box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.41);
+}
+.pedido__card-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pedido__card-img .img__circulo{
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img__circulo img{
+  width: 270px;
+  height: 220px;
+
+}
+.pedido__card-title{
+  color: white;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: start;
+  justify-content: space-evenly;
+  padding-left: 20px;
+}
+
+.pedido__card-title h5{
+  font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-top:0;
+    margin-bottom:0;
+}
+.pedido__card-title p{
+  font-size: 1em;
+
+}
+
+.pedido__card-modificacion{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 11px;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 150px;
+}
+.modificacion__cantidad select{
+  color:white;
+  font-family: 'Lobster Two', cursive;
+  border:0;
+  border: 0;
+  width: 45px;
+  padding-left: 10px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #DA0D12 ;
+}
+.pedido__card-modificacion button{
+  background-color:transparent; 
+  border: 0;
+}
+.modificacion__eliminar svg{
+  width: 40px;
+  height:40px
+}
+
+#pedido__importe{
+  font-size: 2em;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  width: 50px;
+}
+
+.importePagar{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 230px;
+  font-size: 2em;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  background: red;
+}
+
+.botonesCompra{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 221px;
+}
+
+.botonesCompra button{
+  width: 150px;
+  height: 34px;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: white;
+  background-color: red;
+  border: 0;
+  font-family: 'Lobster Two', cursive;
+  cursor: pointer;
+}
+.botonesCompra button a{
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  text-decoration: none;
+  
+}
